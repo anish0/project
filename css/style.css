@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Basic');
+body{
+    font-family: 'Basic', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.left{
+    float: left;
+    margin-left: 70px;
+}
+.right{
+    float: right;
+    margin-right: 50px;
+}
+.left ul, .right ul{
+    list-style-type:none;
+    padding: 15px;
+}
+.left ul li, .right ul li{
+    display: inline;
+    padding: 10px;
+    
+}
+.left ul li a, .right ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+}
+header{
+    background: #111111;
+    height: 50px;
+}
+i{
+    color:whitesmoke;
+}
+.banner{
+    background: url(../image/banner.jpg);
+    height: 100vh;
+    background-size: cover;
+    opacity: 0.9;
+}
+.container{
+ margin: auto;
+}
+.header2{
+    padding: 40px 20px;
+}
+.logo{
+    float: left;
+}
+.navbar{
+    float: right;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    display: inline;
+    padding: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.logo img{
+    background: transparent;
+    width: 150px;
+    height: 100px;
+    padding:1px 5px;
+}
